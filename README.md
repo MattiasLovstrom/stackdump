@@ -1,5 +1,4 @@
 # stackdump
-=============
 Stackdump delivers functionality to troubleshoot .Net processes running .Net core. It includes:
 Stackdump.exe – tool to dump all .Net running stacks to the console
 Stackdump is designed to be run in a production environment. Stackdump will attach itself as a debugger to the process and temporary stop it; dump all running stacks to the console and start to process one again (this normally takes 5 – 10 seconds, and the application will be stopped during this time but it will continue running after the stacks are listed).      
